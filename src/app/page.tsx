@@ -61,7 +61,7 @@ export default function Home() {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     // console.log('>>>>>>>>>>>>>>>', e.target);
 
-    const { name, value, id } = e.target;
+    const { value, id } = e.target;
     setFormData((prev) => ({
       ...prev,
       [id]: value,
